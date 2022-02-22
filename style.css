@@ -1,15 +1,17 @@
+@import url('file:///home/bean/.cache/wal/colors.css');
+
 :root {
-    --color-bg: #282828;
-    --color-fg: #EADBB2;
-    --color-link: #8F9191;
-    --color-link-visited: #668F8B;
-    --color-link-hover: #FA7921 ;
+    --color-bg: var(--color0);
+    --color-fg: var(--foreground);
+    --color-link: var(--color1);
+    --color-link-visited: var(--color3);
+    --color-link-hover: var(--color2);
 }
 
 html, body {
   background: var(--color-bg);
   color: var(--color-fg);
-  font-family: "Fira Code";
+  font-family: "CozetteVector";
   height: 100%;
   width: 100%;
   margin: 0;
