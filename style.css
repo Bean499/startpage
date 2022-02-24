@@ -96,7 +96,7 @@ a:hover {
 }
 
 .blinking {
-  animation: opacity 1s ease-in-out infinite;
+  animation: opacity 2.5s ease-in-out infinite;
   opacity: 1;
 }
 
