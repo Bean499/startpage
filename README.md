@@ -1,7 +1,6 @@
 # Startpage
 
-[Live Preview](https://bean499.github.io/startpage/)
-Note that colours will be broken in this preivew mode, since it can't import any from pywal.
+[Live Preview](https://bean499.github.io/startpage/) - Note that colours will be broken in this preivew mode, since it can't import any from pywal.
 
 Feel free to fork and make your own changes!
 
