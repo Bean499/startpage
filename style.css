@@ -1,5 +1,10 @@
 @import url('file:///home/bean/.cache/wal/colors.css');
 
+@font-face {
+  font-family: "old-english-gothic-pixel";
+  src: url("./font/old-english-gothic-pixel.otf");
+}
+
 :root {
     --color-bg: var(--color0);
     --color-fg: var(--foreground);
@@ -46,6 +51,7 @@ html, body {
 }
 
 .head {
+  font-family: "old-english-gothic-pixel";
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,7 +79,8 @@ html, body {
 }
 
 .title {
-  font-size: 20px;
+  font-family: "old-english-gothic-pixel";
+  font-size: 24px;
 }
 
 li {
