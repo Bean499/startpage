@@ -5,6 +5,11 @@
   src: url("./font/old-english-gothic-pixel.otf");
 }
 
+@font-face {
+  font-family: "CozetteVector";
+  src: url("./font/CozetteVector.otf");
+}
+
 :root {
     --color-bg: var(--color0);
     --color-fg: var(--foreground);
