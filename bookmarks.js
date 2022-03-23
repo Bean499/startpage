@@ -26,7 +26,7 @@ let bookmarks = [
 			{ name: "d&d 5e wiki", url: "dnd5e.wikidot.com" },
 			{ name: "r/bardmains", url: "reddit.com/r/bardmains" },
 			{ name: "r/guiltygear", url: "reddit.com/r/guiltygear" },
-			{ name: "dustloop", url: "dustloop.com/wiki/index.php?title=GGST" },
+			{ name: "dustloop", url: "https://www.dustloop.com/wiki/index.php?title=Guilty_Gear_-Strive-" },
 		]
 	},
 
@@ -53,7 +53,7 @@ for (i = 0; i < bookmarks.length; i++) {
 	html.push("<div class='links'>");
 	html.push("<li class='title'>" + bookmarks[i].title + "</li>")
 	for (j = 0; j < bookmarks[i].links.length; j++) {
-		html.push("<li><a href='" + bookmarks[i].links[j].url + "'>" + bookmarks[i].links[j].name + "</a></li>")
+		html.push("<li><a href='https://www." + bookmarks[i].links[j].url + "'>" + bookmarks[i].links[j].name + "</a></li>")
 	}
 	html.push("</div></div>")
 }
