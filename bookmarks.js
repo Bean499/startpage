@@ -14,6 +14,7 @@ let bookmarks = [
 		title: "media",
 		links: [
 			{ name: "youtube", url: "https://www.youtube.com" },
+			{ name: "yt music", url: "https://music.youtube.com" },
 			{ name: "twitch", url: "https://www.twitch.tv" },
 			{ name: "soundcloud", url: "https://www.soundcloud.com" },
 			{ name: "netflix", url: "https://www.netflix.com" },
@@ -34,7 +35,7 @@ let bookmarks = [
 	{
 		title: "computing",
 		links: [
-			{ name: "r/programming", url: "https://www.reddit.com/r/programming" },
+			{ name: "arch wiki", url: "https://archlinux.org/" },
 			{ name: "r/transprogrammer", url: "https://www.reddit.com/r/transprogrammer" },
 			{ name: "r/unixporn", url: "https://www.reddit.com/r/unixporn" },
 			{ name: "r/battlestations", url: "https://www.reddit.com/r/battlestations" },
