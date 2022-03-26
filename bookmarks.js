@@ -2,30 +2,31 @@ let bookmarks = [
 	{
 		title: "work",
 		links: [
-			{ name: "notion", url: "notion.so" },
-			{ name: "github", url: "github.com" },
-			{ name: "gmail", url: "gmail.com" },
-			{ name: "drive", url: "drive.google.com" },
-			{ name: "homework", url: "satchelone.com/todos/upcoming" },
+			{ name: "notion", url: "https://www.notion.so" },
+			{ name: "github", url: "https://www.github.com" },
+			{ name: "gmail", url: "https://www.gmail.com" },
+			{ name: "drive", url: "https://www.drive.google.com" },
+			{ name: "homework", url: "https://www.satchelone.com/todos/upcoming" },
 		]
 	},
 
 	{
 		title: "media",
 		links: [
-			{ name: "youtube", url: "youtube.com" },
-			{ name: "twitch", url: "twitch.tv" },
-			{ name: "soundcloud", url: "soundcloud.com" },
-			{ name: "netflix", url: "netflix.com" },
+			{ name: "youtube", url: "https://www.youtube.com" },
+			{ name: "twitch", url: "https://www.twitch.tv" },
+			{ name: "soundcloud", url: "https://www.soundcloud.com" },
+			{ name: "netflix", url: "https://www.netflix.com" },
 		]
 	},
 
 	{
 		title:"games",
 		links: [
-			{ name: "d&d 5e wiki", url: "dnd5e.wikidot.com" },
-			{ name: "r/bardmains", url: "reddit.com/r/bardmains" },
-			{ name: "r/guiltygear", url: "reddit.com/r/guiltygear" },
+			{ name: "d&d 5e wiki", url: "http://www.dnd5e.wikidot.com" },
+			{ name: "5etools", url: "http://5e.tools" },
+			{ name: "r/bardmains", url: "https://www.reddit.com/r/bardmains" },
+			{ name: "r/guiltygear", url: "https://www.reddit.com/r/guiltygear" },
 			{ name: "dustloop", url: "https://www.dustloop.com/wiki/index.php?title=Guilty_Gear_-Strive-" },
 		]
 	},
@@ -33,11 +34,11 @@ let bookmarks = [
 	{
 		title: "computing",
 		links: [
-			{ name: "r/programming", url: "reddit.com/r/programming" },
-			{ name: "r/transprogrammer", url: "reddit.com/r/transprogrammer" },
-			{ name: "r/unixporn", url: "reddit.com/r/unixporn" },
-			{ name: "r/battlestations", url: "reddit.com/r/battlestations" },
-			{ name: "r/mk", url: "reddit.com/r/mechanicalkeyboards" },
+			{ name: "r/programming", url: "https://www.reddit.com/r/programming" },
+			{ name: "r/transprogrammer", url: "https://www.reddit.com/r/transprogrammer" },
+			{ name: "r/unixporn", url: "https://www.reddit.com/r/unixporn" },
+			{ name: "r/battlestations", url: "https://www.reddit.com/r/battlestations" },
+			{ name: "r/m.k.", url: "https://www.reddit.com/r/mechanicalkeyboards" },
 		]
 	},
 ];
@@ -53,7 +54,7 @@ for (i = 0; i < bookmarks.length; i++) {
 	html.push("<div class='links'>");
 	html.push("<li class='title'>" + bookmarks[i].title + "</li>")
 	for (j = 0; j < bookmarks[i].links.length; j++) {
-		html.push("<li><a href='https://www." + bookmarks[i].links[j].url + "'>" + bookmarks[i].links[j].name + "</a></li>")
+		html.push("<li><a href='" + bookmarks[i].links[j].url + "'>" + bookmarks[i].links[j].name + "</a></li>")
 	}
 	html.push("</div></div>")
 }
