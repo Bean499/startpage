@@ -11,7 +11,7 @@
 }
 
 :root {
-    --color-bg: var(--color0);
+    --color-bg: var(--background);
     --color-fg: var(--foreground);
     --color-link: var(--color1);
     --color-link-visited: var(--color3);

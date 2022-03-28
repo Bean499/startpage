@@ -22,7 +22,7 @@ let bookmarks = [
 	},
 
 	{
-		title:"games",
+		title: "games",
 		links: [
 			{ name: "d&d 5e wiki", url: "http://www.dnd5e.wikidot.com" },
 			{ name: "5etools", url: "http://5e.tools" },
