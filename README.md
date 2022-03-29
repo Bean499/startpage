@@ -1,6 +1,6 @@
 # Startpage
 
-![screenshot of start page](./img/screenshot.png)
+![screenshot of start page](https://github.com/Bean499/Bean499/blob/main/assets/homepage.png)
 
 [Live Preview](https://bean499.github.io/startpage/) - Note that colours will be broken in this preivew mode, since it can't import any from pywal.
 
