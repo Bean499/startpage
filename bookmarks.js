@@ -35,11 +35,11 @@ let bookmarks = [
 	{
 		title: "computing",
 		links: [
-			{ name: "arch wiki", url: "https://archlinux.org/" },
+			{ name: "arch wiki", url: "https://wiki.archlinux.org/" },
+			{ name: "/g/", url: "https://boards.4channel.org/g/" },
 			{ name: "r/transprogrammer", url: "https://www.reddit.com/r/transprogrammer" },
 			{ name: "r/unixporn", url: "https://www.reddit.com/r/unixporn" },
 			{ name: "r/battlestations", url: "https://www.reddit.com/r/battlestations" },
-			{ name: "r/m.k.", url: "https://www.reddit.com/r/mechanicalkeyboards" },
 		]
 	},
 ];
