@@ -75,6 +75,13 @@ html, body {
   justify-content: center;
 }
 
+#special {
+  font-family: "old-english-gothic-pixel";
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
 .links {
   display: flex;
   flex-direction: column;

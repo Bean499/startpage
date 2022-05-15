@@ -44,7 +44,7 @@ let bookmarks = [
 	},
 ];
 
-//			{ name: "", url: "reddit.com/r/" },
+let special = { name: "summer spreadsheet", icon: "🌞", url: "https://docs.google.com/spreadsheets/d/1jhm-1ib7uQZaTQgNzjc6OsfLbzqHu1XOfcnA-Cu2R-o/edit#" }
 
 let container = document.getElementById("bookmarks");
 
@@ -61,3 +61,7 @@ for (i = 0; i < bookmarks.length; i++) {
 }
 
 container.innerHTML = html.join("");
+
+let specialContainer = document.getElementById("special");
+
+specialContainer.innerHTML = ("<a href='" + special.url + "'><span class='blinking'>" + special.icon + " </span>" + special.name + "</a>");
