@@ -1,5 +1,7 @@
 # Startpage
 
+**Replaced by [Bean499/homepage](https://github.com/Bean499/homepage)**
+
 ![screenshot of start page](https://github.com/Bean499/Bean499/blob/main/assets/homepage.png)
 
 [Live Preview](https://bean499.github.io/startpage/) - Note that colours and art will be broken in this preivew mode, since it can't import any from pywal or the `art` folder.
